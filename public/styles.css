@@ -1,4 +1,21 @@
+p.title {
+    /*font-family: 'Handlee', cursive;*/
+    /*font-family: 'Josefin Slab', cursive;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    font-family: 'Fredericka the Great', cursive;
 
+    font-size: 36px;
+
+}
+p.exp {
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Josefin Slab', cursive;
+    font-size: 24px;
+}
+
+.navbar.navbar-default.navbar-static-bottom {
+    margin-bottom: 0;
+}
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,
@@ -44,7 +61,7 @@ h2 {
     width: 600px;
 }
 p {
-    font-family: 'Waiting for the Sunrise';
+    font-family: 'Waiting for the Sunrise', bold;
     font-size: 24px;
 
 }
