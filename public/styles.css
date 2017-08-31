@@ -1,3 +1,12 @@
+h2 {
+    font-family: Fredericka the Great;
+    /* font-family: 'Sacramento'; */
+    color: black;
+}
+
+h1.proj{
+    font-family: 'Fredericka the Great', cursive;
+}
 p.title {
     /*font-family: 'Handlee', cursive;*/
     /*font-family: 'Josefin Slab', cursive;*/
@@ -9,13 +18,27 @@ p.title {
 }
 p.exp {
     /*font-family: 'Handlee', cursive;*/
-    font-family: 'Josefin Slab', cursive;
+    font-family: 'Waiting for the Sunrise', bold;
     font-size: 24px;
 }
 
 .navbar.navbar-default.navbar-static-bottom {
     margin-bottom: 0;
 }
+
+.navbar a{
+    color: white
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-family: unset;
+    font-size: 16px;
+}
+
+
+
+
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,

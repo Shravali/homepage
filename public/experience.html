@@ -4,7 +4,8 @@
 <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'/>
 <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<!--<link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Handlee|Josefin+Slab:400i" rel="stylesheet">
+
 <!--<link href="/node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">-->
 <script
         src="https://code.jquery.com/jquery-3.2.1.js"
@@ -33,50 +34,72 @@
 <div class="container-fluid">
 
     <div class="jumbotron">
-        <h1>Experience</h1>
+        <h1 class="proj">Experience</h1>
         <h3>Shravali Reddy</h3>
     </div>
 
     <table class="table table-borderless">
         <thead>
         <tr>
-            <th></th>
-            <th>Title</th>
-            <th>Dates</th>
-            <th>More Information</th>
+            <!--<th></th>-->
+            <!--<th>Title</th>-->
+            <!--<th>Dates</th>-->
+            <!--<th>More Information</th>-->
         </tr>
         </thead>
         <tr>
-            <td>
-                <img src="nanthealth.png" width="100">
+
+            <td style='padding-top: 50px'>
+                <p class="title">NantHealth</p>
+                Software Engineer Co-op
+                <p>January – June 2017</p>
+                <img src="nh2.jpg" width="150">
+
             </td>
             <td style='padding-top: 50px'>
-                Project 1
+                <ul>
+                    <li>Developed a Spring Boot application (Front End & Back End) using authorization code flow that logs in and authenticates users using OpenID Connect (OIDC) as part of the NantHealth Single Sign On project</li>
+                    <li>Managed redirects, tokens, cookies using HTTP Protocol & Gluu Server as an identity & access management suite</li>
+                    <li>Extended functionality of NantHealth’s Identity Mapping Service, a Java application that stores and provides user ID’s across NantHealth and third-party systems, to include additional user information from JWT into SQL Server </li>
+                    <li>Updated Identity Mapping Service (IMS) in order to accommodate integration with an additional third-party tool. Implemented changes in endpoints, databases, Python scripts, store procedures, JWT, and RAML</li>
+                    <li>Created registration scripts in Python that processed and validated user records and mapped new users using IMS to enable the integration of a third-party tool into the NantHealth Oncology Suite</li>
+                    <li>Developed scripts to generate authenticated requests to a third-party API through the generation of a signature using a secret key and API token</li>
+                </ul>
+            </td>
+
+        </tr>
+        <tr>
+            <td style='padding-top: 50px'>
+                <p class="title">Educational Testing Service</p>
+                Software Development Life Cycle Intern (SDLC)
+                <p>June – August 2016</p>
+                <img src="ets.jpg" width="150">
             </td>
             <td style='padding-top: 50px'>
-                Project 1 description
+                <ul>
+                    <li>Implemented SDLC guidelines including SDLC roles, Standard Artifacts, and SDLC Score cards </li>
+                    <li>Measured content compliance of 38 teams’ SDLC artifacts including Functional Req’s and Application Deployment</li>
+                    <li>Supported the Reference Architecture Scoring rollout by testing functions and updating the RA Specification through communication with the Reference Architecture and SDLC team using internal SharePoint lists</li>
+                    <li>Regulated application lifecycle management through commissioning/decommissioning applications</li>
+                    <li>Identified and analyzed errors caused by Application Deployment diagrams in PowerDesigner using MS Excel</li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td>
-                <img src="ets.png" width="100">
+            <td style='padding-top: 50px'>
+                <p class="title">Girls Who Code</p>
+                Mentor and Co-Founder
+                <p>September 2014 – June 2015</p>
+                <img src="gwc.jpg" width="150">
             </td>
             <td style='padding-top: 50px'>
-                Project 2
-            </td>
-            <td style='padding-top: 50px'>
-                Project 2 description
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="gwc.jpg" width="100">
-            </td>
-            <td style='padding-top: 50px'>
-                Project 2
-            </td>
-            <td style='padding-top: 50px'>
-                Project 2 description
+                <ul>
+                    <li>Spearheaded the founding of the club at Robbinsville High School</li>
+                    <li>Educated 20 – 30 high school girls on programming basics with weekly projects using Scratch and Processing</li>
+                    <li>Encouraged girls to consider STEM career paths and served as positive role model </li>
+                    <li>Maintained list of enrolled students and used Macros to track progress and attendance </li>
+
+                </ul>
             </td>
         </tr>
     </table>
