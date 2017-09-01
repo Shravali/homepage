@@ -16,9 +16,16 @@ p.title {
     font-size: 36px;
 
 }
+ul {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}
+
+
 p.exp {
     /*font-family: 'Handlee', cursive;*/
-    font-family: 'Waiting for the Sunrise', bold;
+    /*font-family: 'Waiting for the Sunrise', bold;*/
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 24px;
 }
 
@@ -30,14 +37,38 @@ p.exp {
     color: white
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
-    font-family: unset;
-    font-size: 16px;
+div.home .navbar-inverse {
+    background-color: black;
+    border-color: black;
+}
+.navbar-inverse {
+    background-color: #f5b814;
+    border-color: #d68601;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif, bold;
+    font-size: 20px;
+}
 
+/*.btn-warning {*/
+    /*color: #fff;*/
+    /*background-color: #6d5ca0;*/
+    /*border-color: #6d5ca0;*/
+/*}*/
 
+/*.btn-primary {*/
+    /*color: #fff;*/
+    /*background-color: #204d74;*/
+    /*border-color: #204d74;*/
+/*}*/
+
+/*.btn-danger {*/
+    /*color: #fff;*/
+    /*background-color: #040145;*/
+    /*border-color: #040145;*/
+/*}*/
 
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
@@ -77,15 +108,16 @@ p.exp {
 }
 
 h2 {
-    font-family: 'Sedgwick Ave', cursive;    /*font-family: 'Sacramento';*/
+    font-family: 'Sedgwick Ave', cursive;
     color: black;
 }
 .jumbotron img{
     width: 600px;
 }
 p {
-    font-family: 'Waiting for the Sunrise', bold;
-    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    /*font-family: 'Waiting for the Sunrise', bold;*/
+    font-size: 28px;
 
 }
 
