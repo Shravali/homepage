@@ -1,34 +1,24 @@
-h2 {
-    font-family: Fredericka the Great;
-    /* font-family: 'Sacramento'; */
-    color: black;
-}
-
 h1.proj{
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Sedgwick Ave';
 }
 p.title {
-    /*font-family: 'Handlee', cursive;*/
-    /*font-family: 'Josefin Slab', cursive;*/
-    /*font-family: 'Amatic SC', cursive;*/
-    /*font-family: 'Fredericka the Great', cursive;*/
-    /*font-family: 'Delius', cursive;*/
-    font-family: 'Sedgwick Ave';    /*font-family: 'Sacramento';*/
-
+    font-family: 'Sedgwick Ave';
     font-size: 36px;
 
 }
 ul {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
 
 
 p.exp {
-    /*font-family: 'Handlee', cursive;*/
-    /*font-family: 'Waiting for the Sunrise', bold;*/
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+}
+
+div.jobDesc p{
+    font-size: 16px;
 }
 
 .navbar.navbar-default.navbar-static-bottom {
